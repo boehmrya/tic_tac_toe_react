@@ -6,7 +6,7 @@ import './index.css';
 function Square(props) {
   return (
     <button
-      className={this.props.classes}
+      className={props.classes}
       onClick={() => props.onClick() }
     >
       {props.value}
